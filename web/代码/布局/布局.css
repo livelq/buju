@@ -1,0 +1,25 @@
+.all{
+	padding: 0 200px 0 200px
+}
+.main,.left,.right{
+	float: left;
+	position: relative;
+	height: 300px;
+}
+.main{
+	background-color: red;
+	width:100%;
+}
+.left{
+	background-color: green;
+	margin-left: -100%;
+	left: -200px;
+	width: 200px;
+
+}
+.right{
+	background-color: blue;
+	margin-left: -200px;
+	right: -200px;
+	width: 200px;
+}

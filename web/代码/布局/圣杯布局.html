@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>圣杯布局</title>
+	<style>
+	.header,.footer
+	{
+		background-color: grey;
+		height: 30px;
+		text-align: center;
+	}	
+	.footer
+	{
+		clear: both;
+	}
+	.container
+	{
+		padding: 0 220px 0 200px;
+	}
+	.main,.left,.right
+	{
+		float: left;
+		height: 500px;
+		position: relative;
+	}
+	.main
+	{
+		background-color: red;
+		width: 100%;
+	}
+	.left
+	{
+		background-color: #aaa;
+		width: 200px;
+		margin-left: -100%;
+		left: -200px;
+	}
+	.right
+	{
+		background-color: #eee;
+		width: 220px;	
+		margin-left: -220px;                                         /*注意这里是margin-left
+		right: -220px;
+	}
+*/
+	</style>
+</head>
+
+<body>
+<div class="header">header</div>
+
+<div class="container">
+<div class="main"> main</div>
+<div class="left">left</div>
+<div class="right">right</div>
+</div>
+
+<div class="footer">footer</div>
+</body>
+</html>
